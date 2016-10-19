@@ -1,4 +1,5 @@
-.bash_login
+.bash_user
+.bash_alias
 .tmux.conf
 .curlrc
 .siegerc
@@ -7,8 +8,8 @@
 .inputrc
 .screenrc
 .wgetrc
-.axelrc
 .fonts.conf
 .imwheelrc
 .hgrc
-.git_update
+.vim
+.vimrc

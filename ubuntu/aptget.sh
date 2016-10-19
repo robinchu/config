@@ -2,7 +2,7 @@
 dir=$(dirname `readlink -f $0`)
 list=(`cat "$dir/aptget"`)
 
-sudo chown -R zhengkai:zhengkai /home/zhengkai
+sudo chown -R robin:robin /home/robin
 
 mkdir -p ~/.backup
 
@@ -32,6 +32,6 @@ HOME=/root sudo pip install --upgrade httpie
 HOME=/root sudo pip install --upgrade qrcode
 HOME=/root sudo pip install --upgrade tldr
 
-sudo adduser zhengkai www-data
+sudo adduser  www-data
 
 sed "s/[[:blank:]]*$//" aptget | sort | uniq | sponge aptget

@@ -31,7 +31,7 @@ alias youtube-dl='youtube-dl -f bestvideo+bestaudio --merge-output-format mkv -o
 
 alias wanip='curl https://ifconfig.io/ip'
 
-alias rm="trash-put"
+#alias rm="trash-put"
 
 alias ..='cd ..'
 alias ...='cd ../..'

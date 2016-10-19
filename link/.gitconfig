@@ -1,6 +1,6 @@
 [user]
-	email = zhengkai@gmail.com
-	name = Zheng Kai
+	email = striver186@gmail.com
+	name = Robin Chu
 	signingkey = 57540DC7
 
 [alias]
@@ -21,7 +21,7 @@
 	ui = true
 
 [push]
-	default = upstream
+	#default = upstream
 
 [pull]
 	rebase = true
